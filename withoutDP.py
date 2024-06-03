@@ -6,7 +6,7 @@ def fib(n):
         result = fib(n - 1) + fib(n - 2)
     return result   
 
-n = 20
+n = 40
 
 start = time.time()
 result = fib(n)

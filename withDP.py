@@ -8,7 +8,7 @@ def fib(n):
     memo[n] = result
     return result   
 
-n = 20
+n = 50
 
 start = time.time()
 result = fib(n)
